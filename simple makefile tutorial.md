@@ -84,7 +84,7 @@ opencv_test : opencv_test.cpp
 	$(CC) -o opencv_test opencv_test.cpp $(INCLUDE) $(LDFLAGS) $(LDLIBS)
 ```
 
-### Compile Kinfu程式碼所用的makefile:
+### Compile PCL程式碼所用的makefile:
 ```make
 CC = g++
 INCLUDE = -I /usr/local/include/ -I /usr/local/include/pcl-1.8/ -I /usr/include/eigen3/ -I /usr/include/boost/ -I /usr/include/vtk-5.8/ -I /usr/include/qhull/ -I /usr/include/flann/ -I /usr/include/ni/
