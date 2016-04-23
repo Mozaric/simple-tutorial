@@ -6,13 +6,13 @@
 
 ---
 ## Git 指令
-git init: 將當前資料夾設定成本地repository
-git add file: 將file加入到待提交區域
-git commit -m "message": 將待提交區域檔案提交出去並附上提交訊息(message)
-git remote -v: 顯示遠端repository詳細資訊
-git remote add nickname https://github.com/username/repositoryname.git: 將遠端repository加入列表中
-git pull --rebase nickname master: 將遠端repository(nickname)的master分支拉至本地repository
-git push nickname master: 將本地repository推至遠端repository(nickname)的master分支
+`git init`: 將當前資料夾設定成本地repository
+`git add file`: 將file加入到待提交區域
+`git commit -m "message"`: 將待提交區域檔案提交出去並附上提交訊息(message)
+`git remote -v`: 顯示遠端repository詳細資訊
+`git remote add nickname https://github.com/username/repositoryname.git`: 將遠端repository加入列表中
+`git pull --rebase nickname master`: 將遠端repository(nickname)的master分支拉至本地repository
+`git push nickname master`: 將本地repository推至遠端repository(nickname)的master分支
 
 ---
 ## 與遠端(github)repository同步
