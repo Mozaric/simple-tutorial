@@ -16,13 +16,13 @@
 
 ---
 ## 與遠端(github)repository同步
-- 1.首先在遠端開一個新的repository
-- 2.在本地新增一個相同名字的資料夾
-- 3.進入資料夾後使用`git init`
-- 4.使用`git remote add`將遠端repository位址加入
-- 5.使用`git pull`將遠端repository檔案拉至資料夾內
-- 6.之後就可以在資料夾內進行程式碼撰寫，並使用`git add`、`git commit`來進行版本控制
-- 7.在commit完成後，使用`git push`將本地repository推至遠端repository
+- 1. 首先在遠端開一個新的repository
+- 2. 在本地新增一個相同名字的資料夾
+- 3. 進入資料夾後使用`git init`
+- 4. 使用`git remote add`將遠端repository位址加入
+- 5. 使用`git pull`將遠端repository同步至資料夾內
+- 6. 之後就可以在資料夾內進行程式碼撰寫，並使用`git add`、`git commit`來進行版本控制
+- 7. 在commit完成後，使用`git push`將本地repository同步至遠端repository
 
 
 
